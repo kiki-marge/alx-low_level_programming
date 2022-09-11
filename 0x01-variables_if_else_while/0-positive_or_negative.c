@@ -3,8 +3,9 @@
 #include <stdio.h>
 /**
  * main - main block
- *
- * return: 0
+ * Description: assign a random number and print whether it
+ * positivre, negative or zero
+ * Return: 0
  */
 int main(void)
 
