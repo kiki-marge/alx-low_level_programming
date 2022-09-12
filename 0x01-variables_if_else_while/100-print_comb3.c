@@ -8,18 +8,18 @@
  */
 int main(void)
 {
-	int i;
-	int d = 0;
+	int i=0;
+	int d;
 
-	while (d < 10)
+	while (i <= 9)
 	{
-		i = 0;
-		while (i < 10)
+		d = 0;
+		while (d <= 9)
 		{
-			if (d != i && d < i)
+			if (i != d && i < d)
 			{
-				putchar('0' + d);
-				putchar('0' + i);
+				putchar(i + 48);
+				putchar(d + 48);
 
 				if (i + d != 17)
 				{
@@ -27,10 +27,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-
-			i++
+			d++;
 		}
-		d++
+		i++;
 	}
 	putchar('\n');
 	return (0);
