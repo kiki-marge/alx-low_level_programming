@@ -3,6 +3,7 @@
  * main - main block
  * Description: Print all the alphabet in lowercase
  * except q and e
+ * Return: 0
  */
 int main(void)
 {
