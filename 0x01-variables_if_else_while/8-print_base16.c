@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
  * Description: Prints all numbers of base 16
@@ -8,20 +7,20 @@
  */
 int main(void)
 {
-	int i= '48';
+	int i = '48';
 
-	while (i < '58')
+	while (i <= '58')
 	{
 		putchar(i);
 		i++;
 	}
 
-	char d = 'a';
+	char c = 'a';
 
-	while (d <= 'f')
+	while (c <= 'f')
 	{
-		putchar(d);
-		d++;
+		putchar(c);
+		c++;
 	}
 
 	putchar('\n');
