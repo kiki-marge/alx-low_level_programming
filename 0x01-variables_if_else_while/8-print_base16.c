@@ -8,20 +8,20 @@
  */
 int main(void)
 {
-	char d = '0';
+	int i= '48';
 
-	while (d <= '9')
+	while (i < '58')
+	{
+		putchar(i);
+		i++;
+	}
+
+	char d = 'a';
+
+	while (d <= 'f')
 	{
 		putchar(d);
 		d++;
-	}
-
-	char c = 'a';
-
-	while (c <= 'f')
-	{
-		putchar(c);
-		c++;
 	}
 
 	putchar('\n');
