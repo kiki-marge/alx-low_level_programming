@@ -11,8 +11,7 @@ int main(void)
 	int a, b;
 
 	while (i <= 9)
-	{ 
-		a = 0;
+	{		a = 0;
 		while (a <= 9)
 		{
 			b = 0;
