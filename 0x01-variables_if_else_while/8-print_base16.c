@@ -7,22 +7,16 @@
  */
 int main(void)
 {
-	char i = '48';
+	int d = 48;
 
-	while (i <= '58')
+	while (d <= 102)
 	{
-		putchar(i);
-		i++;
+		putchar(d);
+
+		if (d == 57)
+			d += 39;
+		d++;
 	}
-
-	char c = 'a';
-
-	while (c <= 'f')
-	{
-		putchar(c);
-		c++;
-	}
-
 	putchar('\n');
 	return (0);
 }
